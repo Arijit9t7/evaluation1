@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+           background: radial-gradient(rgb(202,21,100),rgb(83,15,72),rgb(16,32,109),rgb(14,11,20));
+        }
+        .form-container{
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: rgb(244,244,244);
+            padding: 20px;
+            width: 300px;
+            margin: auto;
+        }
+        .form-container input[type=submit]{
+            width:50%;
+            padding: 5px;
+            padding: 5px 0;
+            box-sizing: border-box;
+            background-color: green;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <form action="" style="width: 400px; height: 520px; background-color: rgba(red, green, blue, 0.952);display: block; padding: 10px;
+    box-sizing: border-box;border-radius: 2%; margin: auto;">
+        <div class="form-container">
+            <label for="Email" style="font-weight: 700">Email:</label> <br>
+            <input type="email" id="email" style=" width: 306px;"> <br>
+            <label for="Password" style="font-weight: 700">Password</label> <br>
+            <input type="password" name="...." id="password" style="width: 306px;"><br>
+            <label for="message" style="font-weight: 700">Message</label> <br>
+            <input type="text" name="" id="" style="width: 306px;height: 120px;"><br>
+            <div>
+                <label for="Website Rating" style="font-weight: 700">Website Rating</label>
+                <select name="" id="">
+                    <option value="Excelent">Excellent</option>
+                    <option value="Good">Good</option>
+                    <option value="Average">Average</option>
+                    <option value="Poor">Poor</option>
+                </select> <br>
+
+                <label for="Age" style="font-weight: 700">Age(10-100):</label> <br>
+                <input type="number" name="age" id="age" min="10" max="100" style="width: 306px;"> <br>
+                <label for="Website URL" style="font-weight: 700;">Website URL(optional)</label> <br>
+                <input type="url" name="Website URL" id="Website URL" style="width: 306px;"> <br>
+                <div>
+                    <input type="radio" name="terms" id="terms">
+                    <label for="terms" style="font-weight: 700px;">I agree to terms and conditions</label>
+
+                </div>
+
+               <center><div>
+                    <input type="submit" value="submit" >
+                </div></center> 
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
